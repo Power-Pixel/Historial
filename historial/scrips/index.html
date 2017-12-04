@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+	
+	<title>Prueba</title>
+	
+</head>
+
+<body ng-controller="prueba">
+	<h1>Nombre</h1>
+	<input type="text" ng-model="Nombre">
+	<h1>Apellido</h1>
+	<input  type="text" ng-model="Apellido">
+	<button class = "btn btn-large btn-primary" ng-click="formulario()" 
+	type ="button text-center"> MOSTRAR </button>
+		<h1>{{NombreCompleto}}</h1>
+
+	<script src="angular.min.js"></script> 
+	<script src="scripts.js"></script>
+	
+</body>
+</html>
+
+
